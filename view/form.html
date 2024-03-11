@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/formstyle.css">
+    <title>Document</title>
+</head>
+<body>
+    <h2><center>Form Pendaftaran</center></h2>
+
+<form id="registrationForm">
+    <label for="nama">Nama:</label>
+    <input type="text" id="nama" name="nama" placeholder="Nama Lengkap" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Email Aktif" required>
+
+    <label for="nomorHP">Nomor HP:</label>
+    <input type="tel" id="nomorHP" name="nomorHP" placeholder="No HP Aktif" required>
+
+    <label for="jenisKelamin">Jenis Kelamin:</label>
+    <select id="jenisKelamin" name="jenisKelamin" required>
+        <option value="">Pilih Jenis Kelamin</option>
+        <option value="pria">Pria</option>
+        <option value="wanita">Wanita</option>
+    </select>
+
+    <label for="prodi">Prodi:</label>
+    <select id="prodi" name="prodi" required>
+        <option value="">Pilih Prodi</option>
+        <option value="teknik_informatika">Teknik Informatika</option>
+        <option value="teknik_sipil">Teknik Sipil</option>
+        <option value="teknik_industri">Teknik Industri</option>
+        <option value="teknik_kimia">Teknik Kimia</option>
+    </select>
+
+    <label>Hobi:</label>
+    <label class="container">Membaca
+        <input type="checkbox" checked="checked">
+        <span class="checkmark"></span>
+      </label>
+      <label class="container">Menulis
+        <input type="checkbox">
+        <span class="checkmark"></span>
+      </label>
+      <label class="container">Menyanyi
+        <input type="checkbox">
+        <span class="checkmark"></span>
+      </label>
+      <label class="container">Olahraga
+        <input type="checkbox">
+        <span class="checkmark"></span>
+      </label>
+      <br>
+
+    <label for="alamat">Alamat:</label>
+    <textarea id="alamat" name="alamat" rows="4" placeholder="Alamat Lengkap" required></textarea>
+    
+
+    <label for="fotoDiri">Foto Diri:</label>
+    <input type="file" id="fotoDiri" name="fotoDiri" accept="image/*" required>
+
+    <button type="submit">Daftar</button>
+</form>
+</body>
+</html>
