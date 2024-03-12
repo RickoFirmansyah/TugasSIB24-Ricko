@@ -1,1 +1,0 @@
-# TugasSIB24-ricko
