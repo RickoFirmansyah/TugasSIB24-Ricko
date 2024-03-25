@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-    const apiUrl = 'https://crudcrud.com/api/ee199604a7454b13a62be51aef393056/products';
+    const apiUrl = 'https://crudcrud.com/api/7ad1dc83f0e444be8c83a8aa62ebd5db/products';
     let editMode = false;
 
     function fetchProducts() {
